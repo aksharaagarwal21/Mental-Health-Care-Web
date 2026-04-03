@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build
+dist/
+build/
+.next/
+out/
+
+# Environment
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Cache
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+venv/
+env/
+.venv/
+*.so
+
+# ML models (too large for git)
+*.pt
+*.pth
+*.bin
+*.h5
+*.onnx
+*.safetensors
+
+# Logs
+*.log
+npm-debug.log*
+
+# Misc
+*.tgz
+.eslintcache
+coverage/
+.vercel
+.turbo
+sw.js
+workbox-*.js
